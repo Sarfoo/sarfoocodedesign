@@ -1,0 +1,203 @@
+/*
+Theme Name: Awp Marketing Agency
+Theme URI: https://awplife.com/wordpress-themes/wpbusinesspress-premium/
+Template: awpbusinesspress
+Author: A WP Life
+Author URI: http://awplife.com/
+Description: Awp is a Fast WordPress Theme. This is a professional and modern website template designed specifically for Marketing and Agency related websites. It features a clean and responsive design with a focus on usability and accessibility. This theme seamlessly integrates with popular WordPress builders and block plugins, including Beaver, Divi, Visual Composer, SiteOrigin, Brizy, Themify, WPBakery, Gutenberg, Kadence blocks, Atomic blocks, EditorsKit and many more. With its lightweight design, this theme has a elegant menu like twenty twenty theme, this theme provide other category including blogs, portfolio, trending news portal, architecture and interior design, furniture and home decor, construction and corporate, business press, paid promotion platforms, industries, photography, gyms, fitness, yoga exercise and health, education websites, cooming soon and startups, business, law firms, room hotels and travel, kids school, education and university portals, restaurants, quick news magazines, finance and accounting, consulting platforms, and travel websites and many more. Experience the captivating power of Spectral Briteful Lightning theme, guiding you through the digital landscape and ensuring you never go astray.
+Tags: blog, portfolio, e-commerce, grid-Layout, microformats, one-column, two-columns, three-columns, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, post-formats, rtl-language-support, theme-options, sticky-post, threaded-comments, translation-ready
+Version: 0.0.3
+Tested up to: 6.2
+Requires PHP: 5.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: coin-market
+*/
+
+/*Important For WP COLOR SETTINGS*/
+.navbar-overlap .main-navigation .menu .current-menu-item>a,
+.navbar-overlap .main-navigation .menu .current-menu-ancestor>a, 
+.navbar-overlap .main-navigation .menu .current-menu-parent>a{
+	color: #ed1c24;
+}
+.navbar-overlap .main-navigation .menu>li .sub-menu>li.current-menu-item>a, 
+.navbar-overlap .main-navigation .menu>li .sub-menu>li.current-menu-ancestor>a,
+.navbar-overlap .main-navigation .menu>li .sub-menu>li.current-menu-parent>a{
+	color: #ed1c24;
+}
+
+.navbar-overlap {
+	background-color: rgb(10 10 10 / 72%);
+}
+
+/*Under Line Text*/
+.color-accent, .color-accent-hover:hover,
+.color-accent-hover:focus, :root .has-accent-color, 
+.has-drop-cap:not(:focus):first-letter, 
+.wp-block-button.is-style-outline, a {
+    color: #ed1c24;
+}
+
+
+#slider-demo.overlay-none .slider-caption .caption-content{
+	background-color: rgb(0 0 0 / 0%);
+}
+
+.service-one .post {
+    border-bottom: 1px solid #e7e7e7 !important;
+}
+.service-one .service-box .entry-title a{
+	color: #000 !important;
+}
+.service-one .service-box .entry-title a:hover{
+	color: #ed1c24 !important;
+}
+
+
+.service-one .post { 
+	background-color: #ffffff;
+	/* border-left: none; */
+	position: relative; 
+	margin: 0px 0 50px; 
+	padding: 50px 30px 50px; 
+	font-size: 1.000rem;
+	line-height: 1.75;
+	border-radius: 2px;
+	font-style: normal;
+	/* box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); */
+	transition: 0.3s;
+	/* -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); 
+	-moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); 
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); */
+	-webkit-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);	
+	border: 1px solid #e7e7e7;
+}
+.service-one .post:hover { 
+	-webkit-box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.1); 
+	-moz-box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.1); 
+	box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.1);
+	-webkit-transform: translateY(-7px);
+	-ms-transform: translateY(-7px);
+	transform: translateY(-7px);
+}
+
+.service-one .post:before {
+    position: absolute;
+    content: '';
+    bottom: 0px;
+    height: 4px;
+    width: 0px;
+    background-color: #ed1c24ad;
+    transition: all 500ms ease;
+    left: 0px;
+}
+
+.service-one .post:hover:after, 
+.service-one .post:hover:before {width: 100%;transition: all 500ms ease;}
+
+
+/*Default Widget CSS*/
+address {
+    margin: 0 0 1.6rem;
+    line-height: 2;
+}
+.footer .widget address {
+    color: #fff;
+}
+
+address i {
+    width: 1.563rem;
+    height: auto;
+    margin-right: 0.438rem;
+    font-size: 1.25rem !important;
+}
+
+
+/*Parent Theme Slider Font */
+.fa-long-arrow-left:before {
+    content: "\f177" !important;
+}
+.fa-long-arrow-right:before {
+    content: "\f178" !important;
+}
+
+/*Calendar Next Prev CSS */
+.site-footer .calendar_wrap .wp-calendar-nav-prev a {
+	background: linear-gradient(to right, #ed1c249e, #ed1c2426);
+	color: #fff;
+}
+.site-footer .calendar_wrap .wp-calendar-nav-prev a:hover {
+	background: linear-gradient(to right, #ed1c2426, #ed1c245c);
+	color: #fff;
+}
+
+.site-footer .calendar_wrap .wp-calendar-nav-next a{
+	background: linear-gradient(to right, #ed1c2426, #ed1c245c);
+	color: #fff;
+}
+
+.site-footer .calendar_wrap .wp-calendar-nav-next a:hover{
+	
+	background: linear-gradient(to right, #ed1c249e, #ed1c2426);
+	color: #fff;
+}
+
+
+
+/*Awp Marketing Agency Design 2 */
+
+@media (max-width: 768px){
+	#slider-demo.overlay-disable .slider-caption .title{
+		font-size: 2rem;
+	}
+	.slider-caption .subtitle{
+		margin-bottom: .5rem;
+		margin: 0 0 5px;
+	}
+	.m-top-40 {
+    margin-top: 20px !important;
+	}
+	.btn-large{
+		padding: 0.513rem 1.5rem;
+	}
+}
+
+@media (max-width: 480px){
+#slider-demo.overlay-disable .slider-caption .title {
+    font-size: 1.2rem;
+    margin: 0 0 10px;
+	}
+	.slider-caption .subtitle{
+		margin-bottom: 0.9rem;
+	}
+	#slider-demo.overlay-disable .slider-caption .caption-content{
+		padding: 10px 10px 10px;
+	}
+	
+		#slider-demo.overlay-disable .slider-caption p {
+    font-size: .8rem;
+	}
+	.btn-large {
+		padding: 0.313rem 1rem;
+		font-size: 0.738rem;
+	}
+	.hero-slider h5{
+		font-size: .8rem;
+	}
+	.owl-theme .owl-nav.disabled+.owl-dots{
+		display:none;
+	}
+	
+	/*Theme Info*/
+	.contact-icon {
+		float: left !important;
+	}
+	.contact-info-module {
+		padding: 1.563rem 0rem !important;
+	}
+	
+}
